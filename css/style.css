@@ -39,7 +39,7 @@
   } 
   
   .header {
-    background-image: url("images/banner-bg.jpg");
+    background-image: url(images/banner-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #000;
@@ -146,19 +146,19 @@
   }
 
   .trend1 {
-    background-image: url(/images/trend1.jpg);
+    background-image: url('./images/trend1.jpg');
   }
 
   .trend2 {
-    background-image: url(/images/trend2.jpg);
+    background-image: url('./images/trend2.jpg');
   }
 
   .trend3 {
-    background-image: url(/images/trend3.jpg);
+    background-image: url('./images/trend3.jpg');
   }
 
   .trend4 {
-    background-image: url(/images/trend4.jpg);
+    background-image: url('./images/trend4.jpg');
   }
 
   .article {
