@@ -228,13 +228,13 @@ border: 3px solid rgba(181, 159, 91, 0.6);
 .article-links {
   display: flex;
     flex-wrap: wrap;
-    margin: 0 0 14px;
-    padding: 0;
+    margin: 0 0 0;
+    padding: 4px;
 }
 
 .article-links li {
   list-style-type: none;
-  margin-right: 18px;
+  margin-right: 17px;
   line-height: 1.5em;
 }
 
@@ -248,6 +248,11 @@ font-size: 14px;
   text-transform: uppercase;
   text-decoration: none;
   color: #b59f5b;
+}
+
+.article-item {
+  margin-right: 20px;
+  margin-left: 2px;
 }
 
 .article-link:hover {
@@ -294,7 +299,9 @@ font-size: 14px;
 
 .article {
   display: flex;
-  margin: 61px 0 61px;
+  margin-bottom: 64px;
+  margin-top: 58px;
+;
 }
 
 .article-preview {
@@ -303,6 +310,9 @@ font-size: 14px;
 
 .article-name {
   text-transform: uppercase;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
 }
 
 .post-list-image {
@@ -313,11 +323,13 @@ font-size: 14px;
 
 .article-content-all {
   width: 50%;
-  margin-left: 30px;
+  margin-left: 38px;
 }
 
 .autor-info {
   margin-bottom: 46px;
+  margin-top: 24px;
+  letter-spacing: 0.2px;
 }
 
 .post-list-date {
@@ -334,8 +346,14 @@ font-size: 14px;
   font-size: 12px;
 }
 
+.article-first {
+  font-size: 15px;
+  line-height: 1.5;
+  letter-spacing: 0.2px;
+}
+
 .first-lead {
-  margin-top: 6px;
+  margin-top: 10px;
 }
 
 .sidebar {
@@ -346,6 +364,8 @@ font-size: 14px;
 .sidebar-header {
   text-align: center;
   text-transform: uppercase;
+  font-size: 14px;
+  margin-bottom: -6px;
 }
 
 .sidebar-header::after {
@@ -360,11 +380,11 @@ font-size: 14px;
   }
 
 .last-news {
-  margin-bottom: 59px;
+  margin-bottom: 65px;
 }
 
 .last-post {
-  margin-top: 23px;
+  margin-top: 20px;
 }
 
 .last-post-items {
@@ -387,17 +407,34 @@ font-size: 14px;
 }
 
 .last-menu-name {
-  margin-top: 4px;
+  margin-top: 3px;
   margin-bottom: 0;
   font-weight: bold;
   font-style: normal;
   font-size: 14px;
-  line-height: 1.1;
+  line-height: 1.2;
   text-transform: uppercase;
 }
 
 .last-menu-name:hover {
   color: #b59f5b;
+}
+
+.last-post:nth-child(2) {
+  margin-top: -6px;
+}
+
+.last-post:nth-child(3) {
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+.last-post:nth-child(4) {
+  margin-bottom: -2px;
+}
+
+.last-post:nth-child(5) {
+  margin-bottom: 22px;
 }
 
 .form {
@@ -458,7 +495,7 @@ font-size: 14px;
 
 .subscribe {
   margin-bottom: 57px;
-  margin-top: 62px;
+  margin-top: 60px;
 }
 
 .group-field {
@@ -478,7 +515,6 @@ font-size: 14px;
 
 .email {
   height: 48px;
-  margin-top: 22px;
   padding: 19px;
 }
 
@@ -543,7 +579,7 @@ font-size: 14px;
 }
 
 .categories-item {
-  margin-bottom: 12px;
+  margin-bottom: 15px;
 }
 
 .categories-item:after {
@@ -571,7 +607,7 @@ font-size: 14px;
   display: flex;
   justify-content: space-between;
   gap: 62px;
-  margin: 26px 0 66px;
+  margin: 14px 0 66px;
   padding: 0 38px;
 }
 
@@ -591,6 +627,7 @@ font-size: 14px;
   display: block;
   text-align: center;
   text-transform: uppercase;
+  margin-top: 7px;
 }
 
 .our-products-name::after {
@@ -612,7 +649,7 @@ font-size: 14px;
 }
 
 .our-product-name {
-  margin: 19px 0 5px;
+  margin: 19px 0 0;
   font-weight: bold;
   font-style: normal;
   font-size: 20px;
@@ -620,10 +657,11 @@ font-size: 14px;
 }
 
 .our-product-text {
-  margin-bottom: 25px;
+  margin-bottom: 20px;
   font-weight: 400;
   font-style: normal;
   font-size: 15px;
+  line-height: 1.5;
 }
 
 .our-product-link {
@@ -817,6 +855,7 @@ font-size: 14px;
   margin-top: 10px;
   padding: 15px 22px 10px;
   background-color: #f4f7f6;
+  border: 0;
 }
 
 .group-button {
@@ -975,10 +1014,6 @@ font-size: 14px;
   .first {
     margin-top: 51px;
   }
-
-  .autor-info {
-    margin-bottom: 27px;
-}
 
   .article:not(:last-child):after {
     content: "";
