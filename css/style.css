@@ -116,7 +116,7 @@ margin: 0 auto;
 
 .title {
   max-width: 710px;  
-  margin: 101px auto 0;
+  margin: 105px auto 0;
 
 }
 
@@ -131,7 +131,8 @@ margin: 0 auto;
 }
 
 .now-trends {
-  margin-top: 53px;
+  margin-top: 56px;
+  margin-bottom: -3px;
 }
 
 .trends {
