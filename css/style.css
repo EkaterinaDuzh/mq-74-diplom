@@ -132,7 +132,7 @@ margin: 0 auto;
 
 .now-trends {
   margin-top: 56px;
-  margin-bottom: -3px;
+  margin-bottom: 3px;
 }
 
 .trends {
@@ -229,8 +229,7 @@ border: 3px solid rgba(181, 159, 91, 0.6);
 .article-links {
   display: flex;
     flex-wrap: wrap;
-    margin: 0 0 0;
-    padding: 4px;
+    margin: 0 0 4px;
 }
 
 .article-links li {
@@ -300,13 +299,12 @@ font-size: 14px;
 
 .article {
   display: flex;
-  margin-bottom: 64px;
-  margin-top: 58px;
+  margin-top: 54px;
 ;
 }
 
 .article-preview {
-  width: 50%;
+  width: 53%;
 }
 
 .article-name {
@@ -324,7 +322,7 @@ font-size: 14px;
 
 .article-content-all {
   width: 50%;
-  margin-left: 38px;
+  margin-left: 27px;
 }
 
 .autor-info {
@@ -350,7 +348,6 @@ font-size: 14px;
 .article-first {
   font-size: 15px;
   line-height: 1.5;
-  letter-spacing: 0.2px;
 }
 
 .first-lead {
